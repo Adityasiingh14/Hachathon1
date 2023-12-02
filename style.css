@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first_page{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #cccccc; */
+    background-image: url("Pictures_needed/images/profile-img.jpg");
+    opacity: 0.5;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.box1{
+    margin-left: 5vw;
+    height: 20vh;
+    width: 20vw;
+    font-size: x-large;
+}
+.box1 :hover{
+    transition-timing-function: ease-in-out;
+}
+.name_work2{
+    display: flex;
+}
+.design_colorBlue{
+    color: #3975cb;
+}
+.social_media img{
+    height:30px;
+    width:30px;
+}
+
+
+.second_page{
+    height: 80vh;
+    width: 100vw;
+}
+.about_top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.about_top > p{
+    text-align: center;
+}
+.about_img{
+    height: 60vh;
+    width: 40vw;
+    margin: 20px;
+}
+.About_middle{
+    display: flex;
+    
+}
+.About_middle_1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.About_middle_2{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: x-large;
+}
+.About_middle_3{
+    display: flex;
+    flex-direction: column;
+}
+.About_middle_4{
+    display: flex;
+    flex-direction: column;
+}
+.uiux{
+    color:#0c5bad;
+}
